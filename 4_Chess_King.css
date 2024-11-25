@@ -1,0 +1,36 @@
+.box
+{
+    background-color: yellow;
+    border: 30px solid grey;
+    margin: auto;
+    width: 800px;
+    height: 800px;
+}
+.row
+{
+    width: 800;
+    height: 100px;
+
+}
+.white
+{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    float: left;
+}
+.black
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    color:white;
+    float: left;
+}
+.size
+{
+    font-size: 70px;
+    text-align: center;
+    
+}
+

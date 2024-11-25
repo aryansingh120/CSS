@@ -1,0 +1,79 @@
+*
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body
+{
+    background-color: gray;
+}
+.box
+{
+    width: 90%;
+    height: 120px;
+    background-color: orange;
+    margin: auto;
+    margin-top: 10px;
+    border: 5px solid green;
+    border-bottom: 2.5px solid green ;
+    color: white;
+    text-align: center;
+    font-size:60px ;
+    padding-top: 10px;
+}
+.containar
+{
+    width: 90%;
+    height: 70px;
+    background-color: skyblue;
+    margin: auto;
+    border: 5px solid green;
+    border-top: 2.5px solid green ;
+    border-bottom: 2.5px solid green ;
+
+    padding: 8px;
+
+
+}
+button
+{
+    text-transform: uppercase;
+    margin-left: 5px;
+    height: 40px;
+    width: 80px;
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+
+}
+.bigBox
+{
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    background-color: pink;
+    border: 5px solid green;
+    border-top: 2.5px solid green ;
+    border-bottom: 2.5px solid green ;
+    padding-top:80px ;
+    padding-left: 670px;
+    
+}
+.child
+{
+    height: 270px;
+    width: 400px;
+    background-color: red;
+    border-radius: 33px;
+   
+}
+.black
+{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    border: 5px solid green;
+    border-top: 2.5px solid green ;
+}

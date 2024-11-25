@@ -1,0 +1,42 @@
+    .h1
+    {
+        background-color: brown;
+    border: 2px solid green;
+    height: 49px;
+        color: white;
+        margin: 45px;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    .p1
+    {
+        color: white;
+        background-color:orange;
+        border: 2px solid red;
+        margin: 44px;
+        padding: 30px;
+        font-size: 20px;
+    }
+    .p2
+    {
+        color: red;
+        background-color: rgb(255,235,65);
+        border: 4px dotted red;
+        font-size: 20.2px;
+        margin: 44px ;
+        padding: 30px;
+        font-family: 'Monotype Corsiva';
+        border-radius: 40px;
+    }
+    .p3
+    {
+        color: blue;
+        background-color: rgba(255,235,65,.5);
+        font-size: 20.2px;
+        margin: 55px ;
+        padding: 40px;
+        font-family: 'Monotype Corsiva';
+        border-radius: 40px 0px ;
+        box-shadow: 4px 5px 5px 5px white;
+    
+    }

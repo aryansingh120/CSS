@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    border: 2px solid black;
+    height: 884px;
+    width: 904px;
+    margin: auto;
+    position: relative;
+    
+}
+.containar1
+{
+    background-color: green;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    float: left;
+}
+ .child1
+{
+    height: 260px;
+    width: 260px;
+    background-color: white;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.table1
+{
+    position: absolute;
+     margin-top: 13px;
+     margin-left: 14px;
+    
+}
+.table1 td
+{
+    box-sizing: border-box;
+    background-color: green;
+    height: 60px;
+    width: 60px;
+    border-radius: 6px;
+    
+}
+.table2
+{
+     height: 350px;
+     width: 200px;
+     margin-left: 350px;
+     float: left;
+     
+}
+.table2 td
+{
+    border: 1px solid black;
+    
+
+
+}
+.red
+{
+    background-color: red;
+}
+.containar2
+{
+    background-color: red;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    margin-left: 550px;
+    
+}
+.containar2 .child1
+{
+    background-color: white;
+}
+.containar2 .child1 .table1 td
+{
+    background-color: red;
+} 
+.top
+{
+    height: 180px;
+    width: 350px;
+    margin-top: 350px;
+}
+.top td
+{
+    border: 1px solid black;
+   
+}
+#green
+{
+    background-color: green;
+}
+.mid
+{
+    box-sizing: border-box;
+    height: 180px;
+    width: 200px;
+    margin-left: 350px;
+    margin-top: -180px;
+   
+    background-image: conic-gradient(red 0deg, red 48.2deg , blue 4deg, blue 132deg, yellow 132deg, yellow 228deg, green 226deg ,green 311deg,red 312deg );
+}
+
+.bottom
+{
+    background-color: white;
+    height: 180px;
+    width: 350px;
+    margin-left: 550px;
+    margin-top: -180px;
+
+}
+#blue
+{
+    background-color: blue;
+}
+.bottom td
+{
+    border: 1px solid black;
+}
+.containar4
+{
+    background-color: yellow;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    float: left;
+}
+.containar4 .child1 td
+{
+     background-color: yellow;
+}
+#yellow
+{
+    background-color: yellow;
+}
+.containar5
+{
+    background-color: blue;
+    height: 350px;
+    width: 350px;
+    position: absolute;
+    float: left;
+    margin-left: 550px;
+}
+.containar5 .child1 td
+{
+    background-color: blue;
+}

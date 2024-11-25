@@ -1,0 +1,23 @@
+.whitebox
+{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+.blackbox
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+div
+{
+    border: 10px solid black;
+    height: 840px;
+    width: 840px;
+    margin: auto;
+}
+table
+{
+    margin-top: 7px;
+}

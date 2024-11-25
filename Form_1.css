@@ -1,0 +1,69 @@
+.box
+{
+    box-sizing: border-box;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    margin-top: 0px;
+    background-image: url(form-1772950_1280.webp);
+    opacity: 0.5;
+
+}
+.not
+{
+    box-sizing: border-box;
+    background-color: aqua;
+    height: 300px;
+    width: 350px;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 230px;
+
+    
+}
+h2
+{
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        padding-left: 120px;
+         transform: scaleX(1.3);
+         transform: scaleY(1.1);
+         letter-spacing: 2px;
+      }
+      
+label
+{
+    padding-left: 14px;
+}
+input[type=text]
+{
+    margin-left: 19px;
+    border: none;
+    border-bottom: 1px solid red;
+}
+input[type=password]
+{
+    margin-left: 22px;
+    border: none;
+    border-bottom: 1px solid red;
+
+}
+input[type=email]
+{
+    margin-left: 38px;
+    border: none;
+    border-bottom: 1px solid red;
+
+}
+input[type=number]
+{
+    margin-left: 38px;
+    border: none;
+    border-bottom: 1px solid red;
+
+}
+#paras
+{
+    margin-top: 13px;
+}

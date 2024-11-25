@@ -1,0 +1,241 @@
+.box
+{
+    background-color: red;
+    height: 80px;
+    display: flex;
+
+    .box1
+    {
+        background-color: yellow;
+        height: 80px;
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .box2
+    {
+         background-color: orange;
+         height: 80px;
+         width: 70%;
+         display: flex;
+         justify-content: end;
+         align-items: center;
+         padding-right: 160px;
+
+
+    }
+    #black
+    {
+        height: 50px;
+        width: 50px;
+    }
+    .home
+    {
+        font:19px Roboto;
+        margin-left: 52px;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    .home:hover
+    {
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 3px;
+        border-radius: 4px;
+    }
+}
+.boost
+{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .red
+    {
+        color: rgb(245, 18, 18);
+        font:40px Roboto;
+        font-weight: 1000;
+
+        
+
+    }
+}
+
+.natural
+{
+    height: 450px;
+    background-color: rgba(68, 17, 17, 0.674);
+    display: flex;
+    justify-content: space-evenly;
+
+    .natural1
+    {
+        background-color: rgb(83,12,5);
+        /* background-color: yellow; */
+
+        width: 44%;
+           padding-left: 80px;
+           padding-top: 50px;
+
+    }
+    .natural2
+    {
+        background-color: rgb(83,12,5);
+        /* background-color: orange; */
+        width: 50%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .img1
+    {
+        height: 300px;
+        width: 490px;
+    }
+    .usa
+    {
+        height: 80px;
+        width: 470px;
+        
+    }
+    .today
+    {
+        position: relative;
+        top: -50px;
+        /* height: 400px;
+        width: 400px; */
+    }
+}
+
+.couple
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+
+}
+.gmp
+{
+    background-color: hsl(0, 6%, 93%);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.dsk
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+
+    .back
+    {
+        width: 920px;
+        height: 670px;
+    }
+    .para
+     {
+        font:30px Roboto;
+        font-weight: 700;
+
+     }
+}
+.three
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+}
+.order
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.copyright
+{
+    font:20px Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+
+}
+.four
+{
+    display: flex;
+    /* height: 500px; */
+    background-color: rgb(62, 60, 60);
+    color: white;
+    font:15px Roboto;
+
+
+    .one
+    {
+        width: 30%;
+        padding-top: 50px;
+
+        #set
+        {
+            height: 40px;
+            width: 40px;
+        }
+    }
+    .blog
+    {
+        font-weight: 1000;
+        margin-top: -15px;
+    }
+   input[type=email] 
+    {
+       height: 40px;
+       width: 185px;
+       outline: none;
+       margin-top: 30px;
+       padding-left: 10px;
+    }
+    input[type=button]
+    {
+        height: 45px;
+        width: 130px;
+        background-color: #b3541E;
+        color: white;
+        font:15px Roboto;
+        border: none;
+        margin-left: -3px;
+        
+
+    }
+
+}
+.create
+{
+    background-color: rgb(27, 26, 26);
+    height: 60px;
+    opacity: .9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font:15px Roboto;
+
+}
